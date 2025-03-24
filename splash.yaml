@@ -1,0 +1,17 @@
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/images/fire.png
+  fullscreen: true
+  android_gravity: center
+  ios_content_mode: scaleAspectFit
+
+  android_12:
+    color: "#FFFFFF"
+    fullscreen: true
+    image: assets/images/fire.png
+    android_gravity: center
+    ios_content_mode: scaleAspectFit
+
+
+
+  web: false
