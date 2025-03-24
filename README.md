@@ -1,16 +1,25 @@
-# mealtraker
+# Meal Tracker App
 
-A new Flutter project.
+A responsive Flutter app for tracking meals with calorie counting.
 
-## Getting Started
+## 🛠 Tools & Frameworks
+- **Flutter** (Frontend)
+- **Provider** (State Management)
+- **Image Picker** (Photo uploads)
+- **flutter_native_splash** (Splash screen)
 
-This project is a starting point for a Flutter application.
+## 🚀 How to Run
+1. Clone the repository
+   git clone https://github.com/your-repo/meal-tracker.git
+   cd meal-tracker
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Install dependencies:
+   ```bash
+   flutter pub get
+   flutter run
+   flutter build apk --release
+## Approach to Responsiveness
+1. Flexible & Expanded Widgets: Ensures UI adapts to different screen sizes.
+2. MediaQuery & LayoutBuilder: Used to dynamically adjust layouts.
+3. Adaptive UI: Different layouts for mobile and tablet views.
+4. Scalable Text & Icons: Uses MediaQuery and SizedBox for fluid scaling.
